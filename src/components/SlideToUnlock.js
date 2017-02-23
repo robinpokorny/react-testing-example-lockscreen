@@ -73,7 +73,7 @@ class SlideArrow extends React.Component {
   }
 
   calculateBoundingRect = () => {
-    this.rect = this.el.getBoundingClientRect();
+    this.rect = this.el && this.el.getBoundingClientRect();
   };
 
   componentDidMount() {

@@ -30,7 +30,7 @@ export default class LockScreen extends React.Component {
           backgroundSize: "cover",
         }}
       >
-        <ClockDisplay />
+        <ClockDisplay now={new Date(...[2017, 2, 23])}/>
         {userInfoMessage ? (
           <TopOverlay
             style={{

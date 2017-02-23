@@ -1,24 +1,8 @@
 import React from "react";
 
 export default class ClockDisplay extends React.Component {
-  state = {
-    now: new Date(),
-  };
-
-  updateTime = () => {
-    this.setState({ now: new Date() });
-  };
-
-  componentDidMount() {
-    this.updateInterval = setInterval(this.updateTime, 500);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.updateInterval);
-  }
-
   render() {
-    const { now } = this.state;
+    const { now } = this.props;
 
     return (
       <div

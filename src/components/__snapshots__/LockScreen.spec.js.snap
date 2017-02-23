@@ -1,0 +1,176 @@
+exports[`no-props 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "black",
+      "backgroundImage": "",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "space-between",
+    }
+  }>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(55, 55, 55, 0.5)",
+        "color": "white",
+        "display": "flex",
+        "fontSize": "48px",
+        "height": "2em",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }>
+    00:00:00
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(55, 55, 55, 0.5)",
+        "color": "white",
+        "display": "flex",
+        "fontSize": 16,
+        "height": 64,
+        "justifyContent": "center",
+        "userSelect": "none",
+        "width": "100%",
+      }
+    }>
+    <div
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.3)",
+          "borderRadius": 8,
+          "height": 32,
+          "lineHeight": "32px",
+          "maxWidth": "400px",
+          "position": "relative",
+          "textAlign": "center",
+          "width": "calc(100% - 32px)",
+        }
+      }>
+      <div
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(169, 169, 169)",
+            "borderRadius": 8,
+            "color": "rgb(84, 84, 84)",
+            "cursor": "pointer",
+            "fontSize": 24,
+            "height": 32,
+            "left": 0,
+            "lineHeight": "32px",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "left 0.5s ease-out",
+            "width": 48,
+          }
+        }>
+        >
+      </div>
+      Slide to unlock
+    </div>
+  </div>
+</div>
+`;
+
+exports[`with-props 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "black",
+      "backgroundImage": "url(some/image.png)",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "space-between",
+    }
+  }>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(55, 55, 55, 0.5)",
+        "color": "white",
+        "display": "flex",
+        "fontSize": "48px",
+        "height": "2em",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }>
+    00:00:00
+  </div>
+  <div
+    style={
+      Object {
+        "background": "linear-gradient(rgba(85, 85, 85, 0.5), transparent)",
+        "color": "white",
+        "marginBottom": "auto",
+        "padding": "2em",
+      }
+    }>
+    This is my favorite phone!
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(55, 55, 55, 0.5)",
+        "color": "white",
+        "display": "flex",
+        "fontSize": 16,
+        "height": 64,
+        "justifyContent": "center",
+        "userSelect": "none",
+        "width": "100%",
+      }
+    }>
+    <div
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.3)",
+          "borderRadius": 8,
+          "height": 32,
+          "lineHeight": "32px",
+          "maxWidth": "400px",
+          "position": "relative",
+          "textAlign": "center",
+          "width": "calc(100% - 32px)",
+        }
+      }>
+      <div
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(169, 169, 169)",
+            "borderRadius": 8,
+            "color": "rgb(84, 84, 84)",
+            "cursor": "pointer",
+            "fontSize": 24,
+            "height": 32,
+            "left": 0,
+            "lineHeight": "32px",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "left 0.5s ease-out",
+            "width": 48,
+          }
+        }>
+        >
+      </div>
+      Slide to unlock
+    </div>
+  </div>
+</div>
+`;

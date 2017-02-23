@@ -52,9 +52,9 @@ describe("LockScreen", () => {
   });
 
   describe("rendered `ClockDisplay`", () => {
-    it("does not receive any props", () => {
+    it("receives just `now` prop", () => {
       const clockDisplay = lockScreen().find(ClockDisplay);
-      expect(Object.keys(clockDisplay.props()).length).toBe(0);
+      expect(Object.keys(clockDisplay.props()).length).toBe(1);
     });
   });
 
